@@ -27,8 +27,8 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-admin_username = "admin"
-admin_password = pwd_context.hash("password123")
+admin_username = "niraj"
+admin_password = pwd_context.hash("niraj77")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/")
 
