@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from fastapi.openapi.utils import get_openapi
 
 # --- Database ---
-DATABASE_URL = "postgresql://postgres:postgres@db-1/college_management"
+DATABASE_URL = "postgresql://postgres:postgres@db-1/postgres"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
